@@ -1,0 +1,183 @@
+#title {
+  background-color: #ff4c68;
+}
+
+
+body {
+  font-family: "Montserrat:400", sans-serif;
+}
+
+.fluid-container {
+  padding:3% 15% 7%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3%;
+}
+.big-heading
+{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+.section-heading
+{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+.rotateimg30 {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%
+}
+
+.down-button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.container {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.col-sm {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.fa-bullseye {
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.fa-check-circle {
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.fa-heart {
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.fa-heart:hover {
+  color: #ff4c68;
+}
+
+.fa-check-circle:hover {
+  color: #ff4c68;
+}
+
+.fa-bullseye:hover {
+  color: #ff4c68;
+}
+
+
+
+#testimonials {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.test-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+#press
+{
+
+  background-color: #ef8172;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.press-img{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col
+{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .rotateimg30{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  background-color: #ff4c68;
+  font-weight: bold;
+  color:white;
+}
+.act-h
+{
+  font-size: 3rem;
+  font-weight: 900;
+}
+#footer{
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  background-color: #fff;
+}
+
+.kontakt
+{
+  margin-left: 2%;
+  margin
+}
